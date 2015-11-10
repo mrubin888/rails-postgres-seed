@@ -1,0 +1,15 @@
+development:
+	adapter: postgresql
+	encoding: unicode
+	database: rails_seed_development
+	pool: 5
+	username: (postgres username)
+	password: (postgres password)
+
+test:
+	adapter: postgresql
+	encoding: unicode
+	database: rails_seed_test
+	pool: 5
+	username: (postgres username)
+	password: (postgres password)
